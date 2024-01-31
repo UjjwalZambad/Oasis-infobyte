@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.header{
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 1rem;
+    font-size: 48px;
+}
+
+.header p{
+    font-size: 32px;
+}
+
+.tribute{
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    margin: 0px auto;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tribute img{
+    max-width: 100%;
+}
+
+.bio{
+    margin: 2rem auto;
+    margin-top: 2rem;
+    padding: 1rem 0.5rem;
+    width: 40rem;
+}
+
+.bio h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
