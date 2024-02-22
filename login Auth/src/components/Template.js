@@ -32,20 +32,20 @@ const Template = ({title,desc1,desc2,image,formtype,setIsLoggedIn}) => {
             </button>
         </div>
 
-        <div className='relative w-11/12 max-w-[450px]'>
-            <img src={frameImage}
+        <div className='relative w-11/12 max-w-[450px] mt-6'>
+            {/* <img src={frameImage}
                 alt="Pattern"
                 width={558}
-                height={504}
+                height={200}
                 loading="lazy"
-            />
+            /> */}
 
             <img src={image}
                 alt="Students"
                 width={558}
                 height = {490}
                 loading="lazy"
-                className='absolute -top-4 right-4'
+                className='absolute -top-4 right-4 '
                 />
         </div>
     </div>

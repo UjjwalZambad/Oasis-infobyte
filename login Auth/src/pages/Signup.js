@@ -1,6 +1,6 @@
 import React from 'react'
 import Template from '../components/Template';
-import signupImg from "../assets/signup.png"
+import signupImg from "../assets/dyp.jpg"
 
 const Signup = ({setIsLoggedIn}) => {
   return (

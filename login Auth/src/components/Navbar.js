@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/Logo.svg"
+import logo from "../assets/dyplogo.jpg"
 import { Link } from 'react-router-dom'
 import { toast } from "react-hot-toast";
 
@@ -20,7 +20,7 @@ const Navbar = (props) => {
                     <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <Link to='#'>About</Link>
+                    <Link to='/about'>About</Link>
                 </li>
                 <li>
                     <Link to='#'>Contact</Link>
